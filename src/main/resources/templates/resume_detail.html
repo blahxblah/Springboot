@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>이력서상세</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+</head>
+<body>
+
+<h1 th:text="${resume.name}"></h1>
+<div th:text="${resume.phone_number}"></div>
+<div th:text="${resume.subject}"></div>
+<div th:text="${resume.content}"></div>
+
+</body>
+</html>
