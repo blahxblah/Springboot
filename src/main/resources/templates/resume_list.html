@@ -19,7 +19,7 @@
     <tbody>
     <tr th:each="resume, i : ${rList}">
         <td th:text="${i.count}"></td>
-        <td th:text="${resume.id}"></td>
+        <td th:text="${resume.name}"></td>
         <td th:text="${resume.phone_number}"></td>
         <td>
             <a th:href="@{|/resume/detail/${resume.id}|}" th:text="${resume.subject}"></a>
