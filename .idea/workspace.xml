@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ccfe74-258a-4e29-bd9f-b95ae8491e05" name="변경" comment="" />
+    <list default="true" id="e9ccfe74-258a-4e29-bd9f-b95ae8491e05" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "kjh/resume2",
     "last_opened_file_path": "//wsl$/Ubuntu/home/kjh/code/Springboot",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -186,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691041108751</updated>
       <workItem from="1691041109849" duration="9832000" />
-      <workItem from="1691063367482" duration="23495000" />
+      <workItem from="1691063367482" duration="24172000" />
     </task>
     <servers />
   </component>
