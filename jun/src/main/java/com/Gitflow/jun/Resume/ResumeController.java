@@ -3,15 +3,13 @@ package com.Gitflow.jun.Resume;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RequiredArgsConstructor
 @Controller
+
 public class ResumeController {
 
     private final ResumeService resumeService;
@@ -21,6 +19,7 @@ public class ResumeController {
         model.addAttribute("rList", rList);
         return "resume_list";
     }
+
 
     @GetMapping(value = "/resume/detail/{id}")
     public String detail(Model model, @PathVariable("id") Integer id) {

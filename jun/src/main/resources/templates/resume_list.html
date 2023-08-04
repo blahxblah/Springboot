@@ -19,7 +19,7 @@
     <tbody>
     <tr th:each="resume, i : ${rList}">
         <td th:text="${i.count}"></td>
-        <td th:text="${resume.id}"></td>
+        <td th:text="${resume.name}"></td>
         <td th:text="${resume.phone_number}"></td>
         <td>
             <a th:href="@{|/resume/detail/${resume.id}|}" th:text="${resume.subject}"></a>
@@ -30,11 +30,6 @@
 
 <a th:href="@{/resume/create}">이력서 등록하기</a>
 
-<a th:href="@{/user/signup}">회원가입</a>
-
-<a sec:authorize="isAnonymous()" th:href="@{/user/login}">로그인</a>
-
-<a sec:authorize="isAuthenticated()" th:href="@{/user/logout}">로그아웃</a>
 
 </body>
 </html>

@@ -1,5 +1,6 @@
 package com.Gitflow.jun.Resume;
 
+
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,7 +14,7 @@ public class Resume {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(length = 5)
+    @Column(length = 10)
     private String name;
 
     @Column(length = 15)
