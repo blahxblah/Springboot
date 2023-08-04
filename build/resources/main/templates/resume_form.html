@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>이력서등록</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.min.css}">
+</head>
+<body>
+
+<h5 class="my-3 border-bottom pb-2">이력서등록</h5>
+<form th:action="@{/resume/create}" method="post">
+    <div class="mb-3">
+        <label for="name" class="form-label">이름</label>
+        <input type="text" name="name" id="name" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="phone_number" class="form-label">전화번호</label>
+        <textarea name="phone_number" id="phone_number" class="form-control"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="subject" class="form-label">제목</label>
+        <textarea name="subject" id="subject" class="form-control"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="content" class="form-label">내용</label>
+        <textarea name="content" id="content" class="form-control" rows="10"></textarea>
+    </div>
+    <input type="submit" value="저장하기" class="btn btn-outline-warning">
+</form>
+
+</body>
+</html>
